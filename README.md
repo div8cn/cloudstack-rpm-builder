@@ -5,6 +5,12 @@
 [![Docker Build Status](https://img.shields.io/docker/build/khos2ow/cloudstack-rpm-builder.svg)](https://hub.docker.com/r/khos2ow/cloudstack-rpm-builder/builds/)
 [![license](https://img.shields.io/github/license/khos2ow/cloudstack-rpm-builder.svg)](https://github.com/khos2ow/cloudstack-rpm-builder/blob/master/LICENSE)
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/khos2ow/cloudstack-rpm-builder.svg)](https://store.docker.com/community/images/khos2ow/cloudstack-rpm-builder)
+
+
+[![Image Info](https://images.microbadger.com/badges/image/jguyomard/hugo-builder.svg)](https://microbadger.com/images/jguyomard/hugo-builder)
+
+
 Docker images for building Apache CloudStack RPM packages.
 
 This will give portable, immutable and reproducable mechanism to build packages for releases. A very good candidate to be used by the Jenkins slaves of the project.
@@ -29,7 +35,9 @@ This will give portable, immutable and reproducable mechanism to build packages 
 ## Supported tags and respective `Dockerfile` links
 
 - [`latest`, `centos7` (centos7/Dockerfile)](https://github.com/khos2ow/cloudstack-rpm-builder/blob/master/centos7/Dockerfile)
-- [`centos6` (centos6/Dockerfile)](https://github.com/khos2ow/cloudstack-rpm-builder/blob/master/centos6/Dockerfile)
+  - [![Image Version](https://images.microbadger.com/badges/version/khos2ow/cloudstack-rpm-builder:centos7.svg)](https://microbadger.com/images/khos2ow/cloudstack-rpm-builder:centos7)
+  - [![Image Info](https://images.microbadger.com/badges/image/khos2ow/cloudstack-rpm-builder:centos7.svg)](https://microbadger.com/images/khos2ow/cloudstack-rpm-builder:centos7)
+- [`centos6` (centos6/Dockerfile)](https://github.com/khos2ow/cloudstack-rpm-builder/blob/master/centos6/Dockerfile) [![Image Version](https://images.microbadger.com/badges/version/khos2ow/cloudstack-rpm-builder:centos6.svg)](https://microbadger.com/images/khos2ow/cloudstack-rpm-builder:centos6) [![Image Info](https://images.microbadger.com/badges/image/khos2ow/cloudstack-rpm-builder:centos6.svg)](https://microbadger.com/images/khos2ow/cloudstack-rpm-builder:centos6)
 
 ## Packges installed in conatiner
 
